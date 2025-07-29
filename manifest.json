@@ -5,7 +5,7 @@
   "name": "Мавлид ан-Наби",
   "short_name": "Мавлид ан-Наби",
   "description": "Мавлид ан-Наби",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "categories": ["мавлид", "religion"],
   "icons": [
     {
@@ -64,9 +64,9 @@
       "type": "image/png"
     }
   ],
-  "scope": "https://dagprogs.github.io/mavlid-an-Nabi/",
-  "id": "mavlidannabi",
-  "start_url": "https://dagprogs.github.io/mavlid-an-Nabi/",
+  "scope": "https://lezgimavlid.vercel.app/",
+  "id": "lezgimavlid",
+  "start_url": "https://lezgimavlid.vercel.app/",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#ffffff",

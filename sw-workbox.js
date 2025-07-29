@@ -26,15 +26,15 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "6e8e7d3b22f38385ea64bf0a82caa7a4"
+    "revision": "970ad420e2ffbc4dc62eb0484fc81289"
   },
   {
     "url": "manifest.json",
-    "revision": "f7e3ed66c07090de426b1c15b185a4f9"
+    "revision": "56d3474d9c72d8e636782396268371cc"
   },
   {
     "url": "asset-manifest.json",
-    "revision": "9ad9f9a9ff292d239e6b9c8a40d86918"
+    "revision": "b98f46ab19caa2c49ddf304dafa74dea"
   },
   {
     "url": "static/css/main.c0f1bc11.css",
@@ -53,16 +53,16 @@ workbox.precaching.precacheAndRoute([
     "revision": "0c261e33c0b95d6944f91c40d310ff15"
   },
   {
-    "url": "static/js/main.64025342.js",
-    "revision": "ca6056555e3d70d52bda377db4174076"
+    "url": "static/js/main.f974de83.js",
+    "revision": "aeb907d843137296815c87966ca23919"
   },
   {
-    "url": "static/js/main.64025342.js.LICENSE.txt",
+    "url": "static/js/main.f974de83.js.LICENSE.txt",
     "revision": "cccfa45cda3f72c4ebb3fb2f4ba53a71"
   },
   {
-    "url": "static/js/main.64025342.js.map",
-    "revision": "ebfe6e3bfff309d5567b9691f5608feb"
+    "url": "static/js/main.f974de83.js.map",
+    "revision": "f72098ffff84bba74f7dbdf06b212216"
   },
   {
     "url": "static/media/1.a39f11ca475e0a554f0c.webp",
@@ -273,16 +273,8 @@ workbox.precaching.precacheAndRoute([
     "revision": "bed34a7760b440a9522a0ebee2eeefc7"
   },
   {
-    "url": "img/badge-128x128.webp",
-    "revision": "77f1e77e278a03350c2a90c38e09c73b"
-  },
-  {
     "url": "img/click.webp",
     "revision": "d093466d7096911b3480b2066679d82e"
-  },
-  {
-    "url": "img/icon-192x192.webp",
-    "revision": "37706d99446859f44a20cbee60ec6947"
   },
   {
     "url": "img/icons/icon-128x128.png",
@@ -395,10 +387,6 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "img/new/Salavat.webp",
     "revision": "f797ed49bd225701fa146dfdf3447072"
-  },
-  {
-    "url": "img/preview.webp",
-    "revision": "87012757c3c5719dab8499ab688cfae7"
   },
   {
     "url": "img/share.svg",
