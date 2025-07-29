@@ -26,15 +26,15 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "db6bdeeb01061a75017c17e58ea72049"
+    "revision": "6e8e7d3b22f38385ea64bf0a82caa7a4"
   },
   {
     "url": "manifest.json",
-    "revision": "c3a8cfa7288aca87b342883ad10405e1"
+    "revision": "f7e3ed66c07090de426b1c15b185a4f9"
   },
   {
     "url": "asset-manifest.json",
-    "revision": "8dbff11e817151dc63a28e3622aa2760"
+    "revision": "9ad9f9a9ff292d239e6b9c8a40d86918"
   },
   {
     "url": "static/css/main.c0f1bc11.css",
@@ -53,16 +53,16 @@ workbox.precaching.precacheAndRoute([
     "revision": "0c261e33c0b95d6944f91c40d310ff15"
   },
   {
-    "url": "static/js/main.664371a0.js",
-    "revision": "1e7bdf467da16ce71ac017c167c105ff"
+    "url": "static/js/main.64025342.js",
+    "revision": "ca6056555e3d70d52bda377db4174076"
   },
   {
-    "url": "static/js/main.664371a0.js.LICENSE.txt",
+    "url": "static/js/main.64025342.js.LICENSE.txt",
     "revision": "cccfa45cda3f72c4ebb3fb2f4ba53a71"
   },
   {
-    "url": "static/js/main.664371a0.js.map",
-    "revision": "223117779c4ed92c4e133516cf9a59f9"
+    "url": "static/js/main.64025342.js.map",
+    "revision": "ebfe6e3bfff309d5567b9691f5608feb"
   },
   {
     "url": "static/media/1.a39f11ca475e0a554f0c.webp",
@@ -435,24 +435,7 @@ workbox.routing.registerRoute(
 
 // OTHER EVENTS
 
-// === Push уведомления ===
+// Receive push and show a notification
 self.addEventListener('push', function(event) {
-  const data = event.data?.json() || {};
-  const title = data.title || 'Мавлид';
-  const options = {
-    body: data.body || 'Мавлид ан-Наби',
-    icon: data.icon || '/img/icon-192x192.webp',
-    badge: '/img/badge-128x128.webp',
-    data: data.url ? { url: data.url } : {}
-  };
-
-  event.waitUntil(
-    self.registration.showNotification(title, options)
-  );
-});
-
-self.addEventListener('notificationclick', function(event) {
-  event.notification.close();
-  const url = event.notification.data?.url || '/';
-  event.waitUntil(clients.openWindow(url));
+  console.log('[Service Worker]: Received push event', event);
 });
