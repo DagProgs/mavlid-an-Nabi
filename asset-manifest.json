@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0f1bc11.css",
-    "main.js": "/static/js/main.f974de83.js",
-    "static/js/453.4ccc9510.chunk.js": "/static/js/453.4ccc9510.chunk.js",
-    "static/media/1.webp": "/static/media/1.a39f11ca475e0a554f0c.webp",
-    "static/media/3.webp": "/static/media/3.0467a6970b6f4226feea.webp",
-    "index.html": "/index.html",
-    "main.c0f1bc11.css.map": "/static/css/main.c0f1bc11.css.map",
-    "main.f974de83.js.map": "/static/js/main.f974de83.js.map",
-    "453.4ccc9510.chunk.js.map": "/static/js/453.4ccc9510.chunk.js.map"
+    "main.css": "/mavlid-an-Nabi/static/css/main.83daaa81.css",
+    "main.js": "/mavlid-an-Nabi/static/js/main.9647cfc1.js",
+    "static/js/453.4ccc9510.chunk.js": "/mavlid-an-Nabi/static/js/453.4ccc9510.chunk.js",
+    "static/media/1.webp": "/mavlid-an-Nabi/static/media/1.a39f11ca475e0a554f0c.webp",
+    "static/media/3.webp": "/mavlid-an-Nabi/static/media/3.0467a6970b6f4226feea.webp",
+    "index.html": "/mavlid-an-Nabi/index.html",
+    "main.83daaa81.css.map": "/mavlid-an-Nabi/static/css/main.83daaa81.css.map",
+    "main.9647cfc1.js.map": "/mavlid-an-Nabi/static/js/main.9647cfc1.js.map",
+    "453.4ccc9510.chunk.js.map": "/mavlid-an-Nabi/static/js/453.4ccc9510.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0f1bc11.css",
-    "static/js/main.f974de83.js"
+    "static/css/main.83daaa81.css",
+    "static/js/main.9647cfc1.js"
   ]
 }
