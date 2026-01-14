@@ -26,7 +26,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "manifest.json",
-    "revision": "c961fffa2cc83cdf329e603b510419a1"
+    "revision": "9ac2fbe3442996bf9ddbce85e80c8a87"
   },
   {
     "url": "css/styles.css",
@@ -226,39 +226,39 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/icons/icon-128x128.png",
-    "revision": "c1fdb4f328dc224c31d4f63b37a2d7eb"
+    "revision": "4d735d6103ecd1d6725f1292a32dc2b0"
   },
   {
     "url": "assets/icons/icon-144x144.png",
-    "revision": "fbf62408a29bafea9714e5006212cdbc"
+    "revision": "30a2c40f9d38f582420bcd4e49e664e8"
   },
   {
     "url": "assets/icons/icon-152x152.png",
-    "revision": "480c47876f2576e4ea51c6e6f6b3a0e1"
+    "revision": "bd2875c5bd2053d239248f7fbbe3cfc3"
   },
   {
     "url": "assets/icons/icon-192x192.png",
-    "revision": "661e7275a650d6a3616d38e98bd09219"
+    "revision": "d10c5e89839cc3df85cd3260af7df58c"
   },
   {
     "url": "assets/icons/icon-384x384.png",
-    "revision": "15230a15012db5dfc25c8756191f8ded"
+    "revision": "199777b3059069f4aeed424f7d2163be"
   },
   {
     "url": "assets/icons/icon-48x48.png",
-    "revision": "34950ff63a4a4de30783fa922faee9c2"
+    "revision": "743b1588856384baf84d961a7b69ebd2"
   },
   {
     "url": "assets/icons/icon-512x512.png",
-    "revision": "28dca3664bb91e23c7a8ad2d0d8194d7"
+    "revision": "1073ec20df36964f86666d97ad26978f"
   },
   {
     "url": "assets/icons/icon-72x72.png",
-    "revision": "bcd59f0dc93d37c8e8f963471f39028d"
+    "revision": "1f11f9c35dfdecf59e54b142e41b66e3"
   },
   {
     "url": "assets/icons/icon-96x96.png",
-    "revision": "cce9088080585a31862e0fe7d70d306f"
+    "revision": "cec91c1bf430c03d7a303e9fccb4198a"
   }
 ]);
 
