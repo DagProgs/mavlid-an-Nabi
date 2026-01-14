@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Maulid an-Nabi</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Maulid an-Nabi">
+    <meta name="keywords" content="Maulid, an-Nabi">
+    <meta name="robots" content="index,follow,noodp">
+    <meta name="googlebot" content="index,follow">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+    <meta name="google-site-verification" content="verification_token">
+    <meta name="generator" content="Web App">
+    <meta content="website">
+    <link rel="manifest" href="manifest.json" />
+    <script async src="pwacompat.min.js"></script>
+    <script defer src="update.js" type="module"></script>
+</head>
+
+<body>
+    <div class="app">
+        <div class="container">
+            <img src="img/1.webp" alt="">
+            <img src="img/2.webp" alt="">
+            <img src="img/3.webp" alt="">
+            <img src="img/4.webp" alt="">
+            <img src="img/5.webp" alt="">
+            <img src="img/6.webp" alt="">
+            <img src="img/7.webp" alt="">
+            <img src="img/8.webp" alt="">
+            <img src="img/9.webp" alt="">
+            <img src="img/10.webp" alt="">
+            <img src="img/11.webp" alt="">
+            <img src="img/12.webp" alt="">
+            <img src="img/13.webp" alt="">
+            <img src="img/14.webp" alt="">
+            <img src="img/15.webp" alt="">
+            <img src="img/16.webp" alt="">
+            <img src="img/17.webp" alt="">
+            <img src="img/18.webp" alt="">
+            <img src="img/19.webp" alt="">
+            <img src="img/20.webp" alt="">
+            <img src="img/21.webp" alt="">
+            <img src="img/22.webp" alt="">
+            <img src="img/23.webp" alt="">
+            <img src="img/24.webp" alt="">
+            <img src="img/25.webp" alt="">
+            <img src="img/26.webp" alt="">
+            <img src="img/27.webp" alt="">
+            <img src="img/28.webp" alt="">
+            <img src="img/29.webp" alt="">
+            <img src="img/30.webp" alt="">
+            <img src="img/31.webp" alt="">
+            <img src="img/32.webp" alt="">
+            <img src="img/33.webp" alt="">
+            <img src="img/34.webp" alt="">
+            <img src="img/35.webp" alt="">
+            <img src="img/36.webp" alt="">
+            <img src="img/37.webp" alt="">
+            <img src="img/38.webp" alt="">
+            <img src="img/39.webp" alt="">
+            <img src="img/40.webp" alt="">
+            <img src="img/41.webp" alt="">
+            <img src="img/42.webp" alt="">
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="screen.png" alt="">
+            <p>
+                Для лучшего опыта использования, установите приложение на вашем устройстве. Нажмите кнопку
+                "1-Поделиться" - "2-Добавить на главный экран" - "3-Добавить".
+            </p>
+        </div>
+    </div>
+    <script>
+        if (!localStorage.getItem('appInstalled') && !window.matchMedia('(display-mode: standalone)').matches && /iPhone|iPod/i.test(navigator.userAgent)) {
+            // Открываем модальное окно только на устройствах iPhone
+            document.getElementById('myModal').style.display = "block";
+            localStorage.setItem('appInstalled', 'true');
+        }
+
+        // Закрытие модального окна при нажатии на кнопку "Close"
+        document.getElementsByClassName("close")[0].onclick = function () {
+            document.getElementById('myModal').style.display = "none";
+        }
+    </script>
+
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="runtime.js"></script>
+    <script type="text/javascript" src="polyfills.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
