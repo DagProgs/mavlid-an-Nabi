@@ -86,14 +86,14 @@
         /* Кнопка сердечка на фото */
         .fav-btn {
             position: absolute; top: 8px; right: 8px;
-            background: rgba(0,0,0,0.6); border: none;
+            border: none;
             color: #fff; font-size: 18px; cursor: pointer;
             border-radius: 50%; width: 32px; height: 32px;
             display: flex; align-items: center; justify-content: center;
             transition: 0.3s; z-index: 5;
         }
 
-        .fav-btn.in-fav { color: #ff4757; background: #fff; }
+        .fav-btn.in-fav { color: #fff; background: green; }
 
         /* Анимация мигания при возврате */
         @keyframes blink-highlight {
@@ -237,7 +237,7 @@
 
                     const heart = document.createElement('button');
                     heart.className = `fav-btn ${favorites.includes(i) ? 'in-fav' : ''}`;
-                    heart.innerHTML = '❤';
+                    heart.innerHTML = '📌';
                     heart.onclick = (e) => {
                         e.stopPropagation();
                         toggleFavorite(i, heart);
