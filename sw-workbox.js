@@ -21,6 +21,10 @@ workbox.core.clientsClaim();
 // We inject manifest here using "workbox-build" in workbox-build-inject.js
 workbox.precaching.precacheAndRoute([
   {
+    "url": "favicon.ico",
+    "revision": "5c13770a673b845981634173f2bef663"
+  },
+  {
     "url": "index.html",
     "revision": "a340d3bf70a7cbcc2d6ae17e0bf1402b"
   },
